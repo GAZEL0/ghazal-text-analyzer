@@ -28,7 +28,8 @@ A clean text-insight toolkit built by Muhammad GAZEL (GHAZALTECH.COM) for both t
 | `text_analyzer_gui.py` | Tkinter UI that reuses the console analyzer for identical results. |
 | `text_analyzer_gui.spec` | PyInstaller configuration for the GUI build. |
 | `logo.ico` | Icon used when packaging the Windows executable. |
-| `dist/`, `build/`, `text_analyzer GT.exe` | Existing PyInstaller output (safe to regenerate). |
+| `dist/, build/` | Removed from repo. You can generate them locally using PyInstaller.
+| `text_analyzer GT.exe`  | Available in the GitHub Releases section.|
 
 ## Getting Started
 1. (Optional) Create and activate a virtual environment.
@@ -56,7 +57,10 @@ python text_analyzer_gui.py
 - Results are read-only so you can copy them without accidental edits.
 
 ### Using the Packaged EXE
-A ready-made build lives at `text_analyzer GT.exe`. Double-click it to launch the GUI without opening a console. If SmartScreen warns you, choose **More info** -> **Run anyway** (expected for unsigned personal builds).
+A ready-made build is available under [Releases]
+https://github.com/GAZEL0/ghazal-text-analyzer/releases/tag/v1.0. 
+Just download text_analyzer GT.exe and double-click to launch...
+If SmartScreen warns you, choose **More info** -> **Run anyway** (expected for unsigned personal builds).
 
 ## Building Your Own Windows Executable
 1. Ensure PyInstaller is installed (`pip install pyinstaller`).
